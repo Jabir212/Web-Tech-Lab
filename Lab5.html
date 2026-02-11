@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required Metadata -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal Academic Profile Page demonstrating semantic HTML5, tables, forms, and metadata.">
+    <meta name="keywords" content="HTML5, Academic Profile, Internship, Student, Education, Contact Form">
+    <meta name="author" content="Jabir Ahmed">
+    <title>Academic Profile - Jabir Ahmed</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Jabir Ahmed</h1>
+        <nav>
+            <a href="#About">About</a> |
+            <a href="#education">Education</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="bio">
+            <h2>About</h2>
+            <p>
+               I am a Computer Science student at American International University-Bangladesh (AIUB), passionate about software engineering.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <table border="3">
+                <caption>Academic Qualifications</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Degree</th>
+                        <th scope="col">Institution</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Result</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>BSc in CSE</td>
+                        <td>AIUB</td>
+                        <td>2026 - Present</td>
+                        <td>CGPA 3.25</td>
+                    </tr>
+
+                    <tr>
+                        <td>HSC</td>
+                        <td>Dhaka City College</td>
+                        <td>2022</td>
+                        <td>GPA 5.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>SSC</td>
+                        <td>BMARPC</td>
+                        <td>2020</td>
+                        <td>GPA 5.00</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your full name"
+                       maxlength="50" required><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email"
+                       required><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="01XXXXXXXXX"
+                       pattern="[0-9]{11}"
+                       maxlength="11"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"
+                          placeholder="Write your message here..."
+                          maxlength="300"
+                          required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Contact: jabir@.com</p>
+        <p>Jabir Ahmed | AIUB</p>
+    </footer>
+
+</body>
+</html>
