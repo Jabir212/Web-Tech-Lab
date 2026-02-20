@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lab Task 03: Practice of tables and semantic HTML5 elements">
+    <title>Lab Task 03 - Tables and Semantic HTML5</title>
+</head>
+<body>
+    <header>
+        <h1>Student Information Portal</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home" title="Go to Home">Home</a></li>
+            <li><a href="#students" title="Go to Student Table">Students</a></li>
+            <li><a href="#contact" title="Go to Contact Section">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+       
+        <section id="students">
+            <h2>Student Records</h2>
+            <table border="1">
+                <caption>List of Students</caption>
+                <tr>
+                    <th scope="col">Student ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">CGPA</th>
+                </tr>
+                <tr>
+                    <td>122334</td>
+                    <td>Rahman</td>
+                    <td>Computer Science</td>
+                    <td>3.85</td>
+                </tr>
+                <tr>
+                    <td>111111</td>
+                    <td>Karim</td>
+                    <td>Electrical Engineering</td>
+                    <td>3.70</td>
+                </tr>
+                <tr>
+                    <td>356242</td>
+                    <td>Ahmed</td>
+                    <td>Mechanical Engineering</td>
+                    <td>3.90</td>
+                </tr>
+                <tr>
+                    <td>2026004</td>
+                    <td>Hossain</td>
+                    <td>Civil Engineering</td>
+                    <td>3.65</td>
+                </tr>
+            </table>
+        </section>
+        <section id="home">
+            <h2>Welcome Section</h2>
+            <p>This section can include general information about the portal or announcements.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>Email: info@university.edu</p>
+            <p>Phone: +880 1234 567890</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AIUB.</p>
+    </footer>
+</body>
+</html>
