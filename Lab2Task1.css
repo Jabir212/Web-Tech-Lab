@@ -1,0 +1,22 @@
+/* Universal Selector */
+* {
+    background-color: #f2f2f2;
+    font-family: Verdana, sans-serif;
+    text-align: center
+}
+
+/* Element Selector */
+h1 {
+    font-size: 32px;
+}
+
+/* ID Selector */
+#mainTitle {
+    background-color: lightgray;
+    text-align: center
+}
+
+/* Element Selector */
+body {
+    text-align: center;
+}

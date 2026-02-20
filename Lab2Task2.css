@@ -1,0 +1,66 @@
+
+h1 {
+    font-size: 30px;
+}
+
+.box {
+    width: 8cm;
+    height: 3cm;
+    background-color: lightblue;
+    margin: 15px;     
+    padding: 1em;      
+    text-align: center;
+}
+
+
+.container {
+    width: 80%;
+    margin: 1.5rem auto;   
+    padding: 2%;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+h1, h2 {
+    text-align: center;
+    color: navy;
+}
+
+div p {
+    color: green;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+button:active {
+    background-color: red;
+}
+
+input[type="text"]:focus {
+    border: 2px solid blue;
+}
+
+a:hover {
+    color: red;
+}
