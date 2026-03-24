@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+header {
+  background: #3b3737;
+  padding: 15px 50px;
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo {
+  color: #00adb5;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-btn {
+  display: none;
+  cursor: pointer;
+}
+
+/* Hero */
+#home {
+  height: 100vh;
+  background: linear-gradient(to right, #000, #222);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.home-content span {
+  color: #00adb5;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #00adb5;
+  color: white;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 80px 50px;
+  text-align: center;
+}
+
+/* Skills */
+.skill-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-box div {
+  background: #00adb5;
+  padding: 10px 20px;
+  color: white;
+}
+
+/* Projects */
+.project-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #eee;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* Contact */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background: #00adb5;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: white;
+  padding: 10px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background: #111;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
